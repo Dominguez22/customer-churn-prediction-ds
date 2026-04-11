@@ -107,22 +107,16 @@ This type of predictive model can be applied in:
 ## 📁 Repository Structure
 
 ```
-customer-churn-project/
+customer-churn-prediction-ds/
 │
 ├── data/
-│   ├── raw/
-│   ├── processed/
+│   ├── contract/
+│   ├── internet/
+│   ├── personal/
+│   ├── phone/
 │
 ├── notebooks/
 │   └── churn_analysis.ipynb
-│
-├── models/
-│   └── model.pkl
-│
-├── reports/
-│   └── churn_report.pdf
-│
-├── images/
 │
 ├── README.md
 ├── requirements.txt
