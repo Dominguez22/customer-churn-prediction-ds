@@ -1,18 +1,18 @@
-# 📊 Customer Churn Prediction – Interconnect Telecom
+# Customer Churn Prediction – Interconnect Telecom
 
-## 🧠 Business Problem
+## Business Problem
 
 Interconnect, a telecommunications company, aims to reduce customer churn by identifying users who are likely to cancel their services. Early detection allows the company to implement proactive retention strategies such as targeted promotions and personalized plans.
 
 ---
 
-## 🎯 Objective
+## Objective
 
 Develop a machine learning model capable of predicting customer churn using customer demographics, service usage, and contract information.
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 The dataset consists of multiple sources containing customer-related information:
 
@@ -25,7 +25,7 @@ Each dataset is linked through a unique `customerID`.
 
 ---
 
-## ⚙️ Project Workflow
+## Project Workflow
 
 1. **Data Cleaning**
 
@@ -60,13 +60,13 @@ Each dataset is linked through a unique `customerID`.
 
 ---
 
-## 🤖 Model Selection
+## Model Selection
 
 The **LightGBM model** was selected as the final model due to its superior performance in predicting customer churn compared to other algorithms.
 
 ---
 
-## 📈 Results
+## Results
 
 * **ROC-AUC:** ~0.93
 * **Accuracy:** ~0.85
@@ -75,7 +75,7 @@ The model demonstrates strong predictive capability and generalization performan
 
 ---
 
-## 🔍 Key Insights
+## Key Insights
 
 * Customers with **month-to-month contracts** show significantly higher churn rates.
 * Lack of **technical support and online security services** is associated with increased churn.
@@ -83,7 +83,7 @@ The model demonstrates strong predictive capability and generalization performan
 
 ---
 
-## 💡 Business Impact
+## Business Impact
 
 This model enables Interconnect to:
 
@@ -94,7 +94,7 @@ This model enables Interconnect to:
 
 ---
 
-## 🔧 Real-World Applications
+## Real-World Applications
 
 This type of predictive model can be applied in:
 
@@ -104,7 +104,7 @@ This type of predictive model can be applied in:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 customer-churn-prediction-ds/
@@ -124,7 +124,7 @@ customer-churn-prediction-ds/
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ```bash
 git clone https://github.com/your-username/customer-churn-project.git
@@ -135,7 +135,7 @@ jupyter notebook
 
 ---
 
-## 🧾 Requirements
+## Requirements
 
 * Python 3.9+
 * pandas
@@ -146,7 +146,7 @@ jupyter notebook
 
 ---
 
-## 📌 Conclusion
+## Conclusion
 
 This project demonstrates how machine learning can be leveraged to solve real-world business problems by predicting customer behavior and enabling data-driven decision-making.
 
